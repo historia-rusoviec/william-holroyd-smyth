@@ -1,0 +1,160 @@
+/*If [device width] is greater than or equal to 320px, then do {...}*/
+ :root {  --velkostPisma:2vmin;}
+ :root {  --velkostPismaComp:10px;}
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+
+    html{
+    	   font-size:2vmin;
+    }
+   .break{
+	   margin:0;
+	   padding:0;
+   	   height:15px;
+	     display:block;
+   }
+	   .zmenaTR{
+     
+   }  
+	  .img100{
+     width:98vw;
+	  	   height:auto;
+   }
+	   .vid100{
+	   	   width:98%;
+	   	   height:auto;
+	   }
+	   .mapaObjekt{
+	   	   width:98vw;
+	   	   height:75vh;
+	   }
+	   
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+	   html{
+    	   font-size:2vmin;
+    }
+   .break{
+	   margin:0;
+	   padding:0;
+   	   height:15px;
+	     display:block;
+   }
+	   .zmenaTR{
+     
+   }  
+	  .img100{
+     width:98vw;
+	  	   height:auto;
+   }
+	   .vid100{
+	   	   width:98%;
+	   	   height:auto;
+	   }
+	   .mapaObjekt{
+	   	   width:98vw;
+	   	   height:75vh;
+	   }
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+ 
+	   html{
+    	   font-size:2vmin;
+    }
+   .break{
+	   margin:0;
+	   padding:0;
+   	   height:15px;
+	     display:block;
+   }
+	   .zmenaTR{
+     
+   }  
+	  .img100{
+     width:98vw;
+	  	   height:auto;
+   }
+	   .vid100{
+	   	   width:98%;
+	   	   height:auto;
+	   }
+	   .mapaObjekt{
+	   	   width:98vw;
+	   	   height:75vh;
+	   }
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+ 
+	   html{
+    	   font-size: var(--velkostPismaComp);
+    }
+    .break{
+		
+	  display:inline;
+   }
+	   .zmenaTR{
+       display:inline-block;
+    }   
+	   .img100{
+     height:100vh;
+	   	   width:auto;
+   }
+	   .vid100{
+	   	   height:100vh;
+	   	   width:auto;
+	   }
+	   .mapaObjekt{
+	   	   width:98vw;
+	   	   height:120vh;
+	   }
+	   
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+ 
+	   html{
+    	   font-size: var(--velkostPismaComp);
+    }
+    .break{
+	  display:inline;
+   }
+	   .zmenaTR{
+       display:inline-block;
+    }      
+	   .img100{
+     height:100vh;
+	   	   width:auto;
+   }
+	   .vid100{
+	   	   height:100vh;
+	   	   width:auto;
+	   }
+	   .mapaObjekt{
+	   	   width:98vw;
+	   	   height:120vh;
+	   }
+
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+ 
+	   html{
+    	   font-size: var(--velkostPismaComp);
+    }
+    .break{
+	  display:inline;
+   }
+	     .zmenaTR{
+       display:inline-block;
+    }   
+	   .img100{
+     height:100vh;
+	   	   width:auto;
+   }
+	   .vid100{
+	   	   height:100vh;
+	   	   width:auto;
+	   }
+	   .mapaObjekt{
+	   	   width:98vw;
+	   	   height:120vh;
+	   }
+}  
+
